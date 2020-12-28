@@ -8,5 +8,4 @@ const UserSchema = new mongoose.Schema({
 
 module.exports= mongoose.model('User',UserSchema)
 
-const User=require('./models/User');
-mongoose.connect('mongodb://localhost/userData')
+
